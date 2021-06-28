@@ -1,170 +1,91 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="app.css">
-
-  <title>Museum of Candy</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
 </head>
 
 <body>
-  <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
-    <a href="#" class="navbar-brand">CANDY</a>
-    <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navLinks">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a href="" class="nav-link">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a href="" class="nav-link">ABOUT</a>
-        </li>
-        <li class="nav-item">
-          <a href="" class="nav-link">TICKETS</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
 
-  <section class="container-fluid px-0">
+    <script>
+        function play(element) {
+            var audio = document.getElementById(element);
+            audio.play();
+            /*  setTimeout(() => { audio.pause(); }, 1500); */
+            audio.currentTime = 0
 
-    <div class="row align-items-center">
-      <div class="col-lg-6">
-        <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
-          <h1 class="display-2">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-          <h1 class="display-2">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-          <h1 class="display-2">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-          <h1 class="display-2">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-          <h1 class="display-2">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-          <h1 class="display-2">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
-          <h1 class="display-2">MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
 
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <img class="img-fluid" src="imgs/hand2.png" alt="">
-      </div>
-    </div>
-
-  </section>
+        }
+    </script>
 
 
 
+    <input type="button" value="PLAY" onclick="play('audio1')" class="btn btn-primary">
+    <audio id="audio1" src="E maj.wav"></audio>
 
-  <section class="container-fluid px-0">
+    <input type="button" value="PLAY 2" onclick="play('audio2')" class="btn btn-danger">
+    <audio id="audio2" src="G Maj.wav"></audio>
 
-    <div class="row align-items-center content">
-      <div class="col-md-6 order-2 order-md-1">
-        <img src="imgs/milk.png" alt="" class="img-fluid">
-      </div>
-      <div class="col-md-6 text-center order-1 order-md-2">
-        <div class="row justify-content-center">
-          <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
-            <h2>MUSEUM OF CANDY</h2>
-            <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
-            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, dolorum excepturi quia
-              magni corrupti ducimus dicta in ut est, distinctio quam. Corrupti temporibus esse ab suscipit commodi eum
-              aut
-              alias?orem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, dolorum excepturi quia
-              magni corrupti ducimus dicta in ut est, distinctio quam. Corrupti temporibus esse ab suscipit commodi eum
-              aut
-              alias?</p>
-          </div>
-        </div>
-      </div>
-    </div>
+    <input type="button" value="PLAY 3" onclick="play('audio3')" class="btn btn-info">
+    <audio id="audio3" src="Am.wav"></audio>
 
-    <div class="row align-items-center content">
-      <div class="col-md-6 text-center">
-        <div class="row justify-content-center">
-          <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
-            <h2>MUSEUM OF CANDY</h2>
-            <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
-            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, dolorum excepturi quia
-              magni corrupti ducimus dicta in ut est, distinctio quam. Corrupti temporibus esse ab suscipit commodi eum
-              aut
-              alias?orem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, dolorum excepturi quia
-              magni corrupti ducimus dicta in ut est, distinctio quam. Corrupti temporibus esse ab suscipit commodi eum
-              aut
-              alias?</p>
-          </div>
-        </div>
-      </div>
+    <input type="button" value="PLAY 4" onclick="play('audio4')" class="btn btn-secondary">
+    <audio id="audio4" src="C Min.wav"></audio>
 
-      <div class="col-md-6">
-        <img src="imgs/gumball.png" alt="" class="img-fluid">
-      </div>
-    </div>
+    <br>
 
-    <div class="row align-items-center content">
-      <div class="col-md-6 order-2 order-md-1">
-        <img src="imgs/sprinkles.png" alt="" class="img-fluid">
-      </div>
-      <div class="col-md-6 text-center order-1 order-md-2">
-        <div class="row justify-content-center">
-          <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
-            <h2>MUSEUM OF CANDY</h2>
-            <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline">
-            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, dolorum excepturi quia
-              magni corrupti ducimus dicta in ut est, distinctio quam. Corrupti temporibus esse ab suscipit commodi eum
-              aut
-              alias?orem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, dolorum excepturi quia
-              magni corrupti ducimus dicta in ut est, distinctio quam. Corrupti temporibus esse ab suscipit commodi eum
-              aut
-              alias?</p>
-          </div>
-        </div>
-      </div>
-    </div>
+    <h2>Beautiful Girls</h2>
+
+    <input type="button" value="G Maj" onclick="play('audio5')" class="btn btn-primary">
+    <audio id="audio5" src="G Maj.wav"></audio>
+
+    <input type="button" value="E Min" onclick="play('audio6')" class="btn btn-danger">
+    <audio id="audio6" src="E min.wav"></audio>
+
+    <input type="button" value="C Maj" onclick="play('audio7')" class="btn btn-info">
+    <audio id="audio7" src="C Maj.wav"></audio>
+
+    <input type="button" value="D maj" onclick="play('audio8')" class="btn btn-secondary">
+    <audio id="audio8" src="D Maj.wav"></audio>
+
+    <h2>Love yourself</h2>
+
+    <input type="button" value="PLAY" onclick="play('audio9')" class="btn btn-primary">
+    <audio id="audio9" src="C Maj.wav"></audio>
+
+    <input type="button" value="PLAY 2" onclick="play('audio10')" class="btn btn-danger">
+    <audio id="audio10" src="G Maj.wav"></audio>
+
+    <input type="button" value="PLAY 3" onclick="play('audio11')" class="btn btn-info">
+    <audio id="audio11" src="Am.wav"></audio>
+
+    <input type="button" value="PLAY 4" onclick="play('audio12')" class="btn btn-secondary">
+    <audio id="audio12" src="D Min.wav"></audio>
+
+    <input type="button" value="PLAY 3" onclick="play('audio13')" class="btn btn-info">
+    <audio id="audio13" src="C Maj.wav"></audio>
+
+    <input type="button" value="PLAY 4" onclick="play('audio14')" class="btn btn-secondary">
+    <audio id="audio14" src="G Maj.wav"></audio>
+
+    <input type="button" value="Drums" onclick="play('audio15')" class="btn btn-success">
+    <audio id="audio15" src="Lofi Drum 7 90 bpm.wav"></audio>
 
 
 
 
-  </section>
+</body>
+
+</html>
 
 
 
 
-
-
-
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
-
-
-
-  <script>
-    $(function () {
-      $(document).scroll(function () {
-        var $nav = $("#mainNavbar");
-        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-      })
-    })
-  </script>
 </body>
 
 </html>
