@@ -24,7 +24,7 @@ h1 {
 h2 {
     font-family: helvetica;
     color: #E7AB79;
-    font-size: 3vw;
+    font-size: 2.5vw;
 }
 
 
@@ -47,7 +47,7 @@ a {
 	text-decoration: none;
 	text-align: center;
 	font-weight: bold;
-  font-family: helvetica;
+    font-family: helvetica;
 }
 
 a:hover {
