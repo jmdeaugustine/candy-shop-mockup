@@ -1,0 +1,52 @@
+.headerimage {
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 8%;
+}
+
+body {
+	height: 100vh;
+	margin: 0;
+	display: grid;
+	place-items: center;
+	background: #4C3A51;
+}
+
+h1 {
+	font-family: helvetica;
+  color: #E7AB79;
+}
+
+h2 {
+	font-family: helvetica;
+  color: #E7AB79;
+}
+
+
+.button-area {
+	margin: 10px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 500px;
+}
+
+a {
+	background: #B25068;
+	padding: 1em 2.4em;
+	font-size: 1em;
+	margin: 1em;
+	color: #EDE4E0;
+	flex-grow: 1;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+  font-family: helvetica;
+}
+
+a:hover {
+	background: #E7AB79;
+}
