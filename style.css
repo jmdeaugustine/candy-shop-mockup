@@ -177,7 +177,7 @@
 /*Sentence*/
 .sentence {
 	color: #ffffff;
-	font-size: 30px;
+	font-size: 2.5vw;
 	text-align: left;
 }
 
@@ -197,6 +197,58 @@
 	text-indent: 8px;
 }
 
+body {
+	height: 100vh;
+	margin: 0;
+	display: grid;
+	place-items: center;
+	background: rgb(11, 11, 11);
+}
+
+h1 {
+	font-family: 'Sora';
+	color: #ffffff;
+	font-size: 2.5vw;
+}
+
+h2 {
+	font-family: 'Sora';
+	color: #ffffff;
+	font-size: 2.5vw;
+}
+
+
+.button-area {
+	margin: 10px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 500px;
+}
+
+p {
+	font-family: 'Sora';
+	color: #ffffff;
+}
+
+a {
+	background: #B25068;
+	padding: 1em 2.4em;
+	font-size: 1em;
+	margin: 1em;
+	color: #EDE4E0;
+	flex-grow: 1;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	font-family: helvetica;
+}
+
+a:hover {
+	background: #E7AB79;
+}
+
 .slidingVertical span {
 	animation: topToBottom 12.5s linear infinite 0s;
 	-ms-animation: topToBottom 12.5s linear infinite 0s;
@@ -205,6 +257,8 @@
 	opacity: 0;
 	overflow: hidden;
 	position: absolute;
+	font-family: 'Sora';
+	font-size: 2.5vw;
 }
 
 .slidingVertical span:nth-child(2) {
@@ -332,62 +386,4 @@
 	100% {
 		opacity: 0;
 	}
-}
-
-
-
-
-
-
-
-body {
-	height: 100vh;
-	margin: 0;
-	display: grid;
-	place-items: center;
-	background: rgb(11, 11, 11);
-}
-
-h1 {
-	font-family: 'Sora';
-	color: #E7AB79;
-	font-size: 3vw;
-}
-
-h2 {
-	font-family: 'Sora';
-	color: #ffffff;
-	font-size: 2.5vw;
-}
-
-
-.button-area {
-	margin: 10px auto;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	width: 500px;
-}
-
-p {
-	font-family: 'Sora';
-	color: #ffffff;
-}
-
-a {
-	background: #B25068;
-	padding: 1em 2.4em;
-	font-size: 1em;
-	margin: 1em;
-	color: #EDE4E0;
-	flex-grow: 1;
-	text-decoration: none;
-	text-align: center;
-	font-weight: bold;
-	font-family: helvetica;
-}
-
-a:hover {
-	background: #E7AB79;
 }
