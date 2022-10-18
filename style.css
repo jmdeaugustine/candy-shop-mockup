@@ -178,6 +178,7 @@
 .sentence {
 	color: #ffffff;
 	font-size: 2.5vw;
+	text-align: left;
 
 
 }
@@ -195,6 +196,7 @@
 /*Vertical Sliding*/
 .slidingVertical {
 	display: inline;
+	text-indent: 8px;
 
 }
 
