@@ -163,7 +163,7 @@
 
 
 
-/*Heading1*/
+
 
 .headerimage {
 	display: flex;
@@ -178,7 +178,8 @@
 .sentence {
 	color: #ffffff;
 	font-size: 2.5vw;
-	text-align: right;
+	/*text-align: right;*/ 
+	display: inline;
 }
 
 /*Wrapper*/
@@ -209,6 +210,7 @@ h1 {
 	font-family: 'Sora';
 	color: #ffffff;
 	font-size: 2.5vw;
+	
 }
 
 h2 {
