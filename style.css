@@ -178,7 +178,7 @@
 .sentence {
 	color: #ffffff;
 	font-size: 2.5vw;
-	display: inline-flex;
+
 
 }
 
@@ -194,8 +194,8 @@
 
 /*Vertical Sliding*/
 .slidingVertical {
-	display: inline-flex;
-	text-indent: 8px;
+	display: inline;
+
 }
 
 body {
