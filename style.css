@@ -178,7 +178,7 @@
 .sentence {
 	color: #ffffff;
 	font-size: 2.5vw;
-	/*text-align: right;*/ 
+	display: inline-flex;
 
 }
 
@@ -194,7 +194,7 @@
 
 /*Vertical Sliding*/
 .slidingVertical {
-	display: inline;
+	display: inline-flex;
 	text-indent: 8px;
 }
 
@@ -210,7 +210,7 @@ h1 {
 	font-family: 'Sora';
 	color: #ffffff;
 	font-size: 2.5vw;
-	
+
 }
 
 h2 {
