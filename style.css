@@ -237,7 +237,7 @@ p {
 }
 
 a {
-	background: #c65a6a;
+	background: #ccbaba;
 	padding: 1em 2.4em;
 	font-size: 1em;
 	margin: 1em;
@@ -250,7 +250,7 @@ a {
 }
 
 a:hover {
-	background: #ccbaba;
+	background: #c65a6a;
 }
 
 .slidingVertical span {
